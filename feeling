@@ -95,4 +95,4 @@ def answer(plaintext):
 
     return ''.join(res)
 
-answer('knowYourCodes ')
+answer('knowYourCodes')
