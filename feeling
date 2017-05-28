@@ -8,7 +8,7 @@ def answer(plaintext):
     for i in s:
 
         if i.isupper():
-            res.append('001111')
+            res.append('000001')
 
         if i == 'a' or i == 'A':
             res.append("100000")
