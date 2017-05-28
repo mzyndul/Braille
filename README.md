@@ -1,6 +1,6 @@
 # Braille
 
-Braille Translater. Accepts all 26 alpha lower or uppercase letters and spaces.
+Braille translator. Accepts all 26 alpha lower or uppercase letters and spaces.
 
 https://en.wikipedia.org/wiki/Braille
 
