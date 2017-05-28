@@ -91,7 +91,7 @@ def answer(plaintext):
         if i == ' ':
             res.append('000000')
 
-    # print(''.join(res))
+    print(res)
 
     return ''.join(res)
 
