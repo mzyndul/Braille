@@ -13,7 +13,7 @@ def answer(plaintext):
         if i == 'a' or i == 'A':
             res.append("100000")
 
-        if i == 'b':
+        if i == 'b' or i == 'B':
             res.append("110000")
 
         if i == 'c' or i == 'C':
