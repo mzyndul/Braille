@@ -1,10 +1,24 @@
 def answer(plaintext):
+
+    # this is not needed, plaintext is always something as syntax required it BUT you can check if palintext is string.
+    # https://docs.python.org/2/library/functions.html#isinstance
+    # if isinstance(plaintext, str):
     if not plaintext:
         return plaintext
 
     res = []
     s = plaintext
-
+    
+    # this would be much better if you would have mapper like this:
+    # mapper = {
+    # 'A': '100000',
+    # 'B': '110000'
+    # .....
+    # .....
+    # }
+    # for i in s:
+    #     res.append(mapper[i])
+    
     for i in s:
 
         if i.isupper():
